@@ -6,7 +6,7 @@ XSBC-Original-Maintainer: Debian Install System Team <debian-boot@lists.debian.o
 Uploaders:
  Chris Boot <bootc@debian.org>,
  Christoph Biedl <debian.axhn@manchmal.in-ulm.de>,
-Build-Depends: debhelper (>= 10), zip
+Build-Depends: debhelper, zip
 Standards-Version: 4.1.1
 Vcs-Git: https://anonscm.debian.org/git/d-i/busybox.git
 Vcs-Browser: https://anonscm.debian.org/cgit/d-i/busybox.git

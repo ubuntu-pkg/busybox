@@ -4,7 +4,7 @@
 #export DH_VERBOSE=1
 
 # Activate full hardening build flags
-export DEB_BUILD_MAINT_OPTIONS := hardening=+all
+#export DEB_BUILD_MAINT_OPTIONS := hardening=+all
 
 include /usr/share/dpkg/default.mk
 
