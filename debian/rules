@@ -119,12 +119,12 @@ ${b}/%/.stamp-build:
 
 ##############################################################################
 
-ifeq (,$(filter nocheck,$(DEB_BUILD_OPTIONS)))
-# we run testsuite only for main flavour
-test-dep := ${b}/deb/.stamp-test
-else
+#ifeq (,$(filter nocheck,$(DEB_BUILD_OPTIONS)))
+## we run testsuite only for main flavour
+#test-dep := ${b}/deb/.stamp-test
+#else
 test-dep :=
-endif
+#endif
 
 override_dh_auto_test: ${test-dep}
 

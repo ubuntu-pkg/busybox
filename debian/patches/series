@@ -1,30 +1,5 @@
-# cherry-picked from upstream
-cherry-pick.1_27_0-148-gb920a38dc.tar-postpone-creation-of-symlinks-with-suspicious-targets.patch
-cherry-pick.1_27_0-438-g0402cb32d.bunzip2-fix-runcnt-overflow-from-bug-10431.patch
-cherry-pick.1_27_0-439-g9ac42c500.unlzma-fix-segv-closes-10436.patch
-cherry-pick.1_27_0-456-gc3797d40a.lineedit-do-not-tab-complete-any-strings-which-have-control-characters.patch
-
-# The following patches will likely be merged soon
-u-mount-FreeBSD-support.patch
-swaponoff-FreeBSD-support.patch
-
 # other patches
-
-shell-ash-export-HOME.patch
-version.patch
-init-console.patch
 stop-checking-ancient-kernel-version.patch
-temp-deb-installer-hack.patch
-install-readlink-in-bin.patch
 
 # Ubuntu patches
-test-bin.patch
-static-sh-alias.patch
-CVE-2011-5325-2.patch
-CVE-2011-5325-3.patch
-CVE-2011-5325-4.patch
-CVE-2011-5325-5.patch
-CVE-2018-1000517.patch
-CVE-2018-20679.patch
-CVE-2019-5747.patch
 handle-ip-valid_lft.patch
