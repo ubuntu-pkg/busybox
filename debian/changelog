@@ -1,11 +1,9 @@
-busybox (1:1.30.1-0ppa1~bionic) bionic; urgency=medium
+busybox (1:1.31.1-0ppa1~bionic) bionic; urgency=medium
 
-  * update to 1.30.1
-  * disable test
-  * remove obsolete / problematic patches
-  * copy most 'static' config to 'deb'
+  * update to 1.31.1
+  * CONFIG_INSTALL=y, CONFIG_FEATURE_INSTALL_LONG_OPTIONS=y
 
- -- Fajar A. Nugraha <ubuntu-ppa@fajar.net>  Thu, 28 May 2019 11:44:00 +0700
+ -- Fajar A. Nugraha <ubuntu-ppa@fajar.net>  Tue, 12 Nov 2019 17:44:00 +0700
 
 busybox (1:1.27.2-2ubuntu6) disco; urgency=medium
 
